@@ -1,0 +1,6 @@
+{
+  "feed_url": "https://example.invalid/photos-local-keyword-indexer/appcast.xml",
+  "automatically_checks_for_updates": true,
+  "public_ed25519_key": "DoPFAx1QmMgvaSSg6NxDMGcD1pSfM34kCik4KPjlGso=",
+  "keychain_account": "photos-local-keyword-indexer"
+}

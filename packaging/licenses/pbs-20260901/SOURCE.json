@@ -1,0 +1,14 @@
+{
+  "archive": "cpython-3.12.14+20260901-aarch64-apple-darwin-pgo+lto-full.tar.zst",
+  "archive_sha256": "dbefa04d4107b449e17022f9c78d3eacbd37a1aa8c166c6220dbd95addf3f318",
+  "build": "20260901",
+  "install_only_stripped_archive": "cpython-3.12.14+20260901-aarch64-apple-darwin-install_only_stripped.tar.gz",
+  "install_only_stripped_sha256": "81a359f1cfadd4da11766534c5913791cea55f26e1bb902cacd2a531bb1e4b2b",
+  "libpython3_12_dylib_sha256": "ac6c8dce75157c9666510e5f24bf6035c53aec09a5b028e16821006aebb82b36",
+  "source_release": "https://github.com/astral-sh/python-build-standalone/releases/tag/20260901",
+  "zlib_ng_supplement": {
+    "archive_sha256": "00bbd88709bc416cb96160ab61d3e1c8f76e106799af7328d0fe434dc7dd5004",
+    "source": "https://github.com/python/cpython-source-deps/archive/refs/tags/zlib-ng-2.2.4.tar.gz",
+    "version": "2.2.4"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "version": "8",
+  "python_version": "3.12.14",
+  "target_triple": "aarch64-apple-darwin",
+  "apple_sdk_deployment_target": "11.0",
+  "licenses": [
+    "Python-2.0",
+    "CNRI-Python"
+  ],
+  "license_path": "licenses/LICENSE.cpython.txt",
+  "build_info": {
+    "extensions": {
+      "_abc": [],
+      "_ast": [],
+      "_asyncio": [],
+      "_bisect": [],
+      "_blake2": [],
+      "_bz2": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__bz2",
+          "license_paths": [
+            "licenses/LICENSE.bzip2.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "bzip2-1.0.6"
+          ],
+          "links": [
+            {
+              "name": "bz2",
+              "path_static": "build/lib/libbz2.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/_bz2module.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_codecs": [],
+      "_codecs_cn": [],
+      "_codecs_hk": [],
+      "_codecs_iso2022": [],
+      "_codecs_jp": [],
+      "_codecs_kr": [],
+      "_codecs_tw": [],
+      "_collections": [],
+      "_contextvars": [],
+      "_crypt": [],
+      "_csv": [],
+      "_ctypes": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__ctypes",
+          "license_paths": [
+            "licenses/LICENSE.libffi.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "MIT"
+          ],
+          "links": [
+            {
+              "name": "dl",
+              "system": true
+            },
+            {
+              "name": "ffi",
+              "path_static": "build/lib/libffi.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/_ctypes/_ctypes.o",
+            "build/Modules/_ctypes/callbacks.o",
+            "build/Modules/_ctypes/callproc.o",
+            "build/Modules/_ctypes/cfield.o",
+            "build/Modules/_ctypes/malloc_closure.o",
+            "build/Modules/_ctypes/stgdict.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_ctypes_test": [],
+      "_curses": [],
+      "_curses_panel": [],
+      "_datetime": [],
+      "_dbm": [],
+      "_decimal": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__decimal",
+          "license_paths": [
+            "licenses/LICENSE.mpdecimal.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "BSD-2-Clause"
+          ],
+          "links": [
+            {
+              "name": "mpdec",
+              "path_static": "build/lib/libmpdec.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/_decimal/_decimal.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_elementtree": [],
+      "_functools": [],
+      "_hashlib": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__hashlib",
+          "license_paths": [
+            "licenses/LICENSE.openssl-1.1.txt",
+            "licenses/LICENSE.openssl-3.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "Apache-2.0",
+            "OpenSSL"
+          ],
+          "links": [
+            {
+              "name": "crypto",
+              "path_static": "build/lib/libcrypto.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/_hashopenssl.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_heapq": [],
+      "_imp": [],
+      "_io": [],
+      "_json": [],
+      "_locale": [],
+      "_lsprof": [],
+      "_lzma": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__lzma",
+          "license_paths": [
+            "licenses/LICENSE.liblzma.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "0BSD"
+          ],
+          "links": [
+            {
+              "name": "lzma",
+              "path_static": "build/lib/liblzma.a"
+            },
+            {
+              "name": "pthread",
+              "system": true
+            }
+          ],
+          "objs": [
+            "build/Modules/_lzmamodule.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_md5": [],
+      "_multibytecodec": [],
+      "_multiprocessing": [],
+      "_opcode": [],
+      "_operator": [],
+      "_pickle": [],
+      "_posixshmem": [],
+      "_posixsubprocess": [],
+      "_queue": [],
+      "_random": [],
+      "_scproxy": [],
+      "_sha1": [],
+      "_sha2": [],
+      "_sha3": [],
+      "_signal": [],
+      "_socket": [],
+      "_sqlite3": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__sqlite3",
+          "license_paths": [
+            "licenses/LICENSE.sqlite.txt",
+            "licenses/LICENSE.zlib-ng.txt",
+            "licenses/LICENSE.zlib.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "Zlib"
+          ],
+          "links": [
+            {
+              "name": "sqlite3",
+              "path_static": "build/lib/libsqlite3.a"
+            },
+            {
+              "name": "z",
+              "system": true
+            }
+          ],
+          "objs": [
+            "build/Modules/_sqlite/blob.o",
+            "build/Modules/_sqlite/connection.o",
+            "build/Modules/_sqlite/cursor.o",
+            "build/Modules/_sqlite/microprotocols.o",
+            "build/Modules/_sqlite/module.o",
+            "build/Modules/_sqlite/prepare_protocol.o",
+            "build/Modules/_sqlite/row.o",
+            "build/Modules/_sqlite/statement.o",
+            "build/Modules/_sqlite/util.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_sre": [],
+      "_ssl": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__ssl",
+          "license_paths": [
+            "licenses/LICENSE.openssl-1.1.txt",
+            "licenses/LICENSE.openssl-3.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "Apache-2.0",
+            "OpenSSL"
+          ],
+          "links": [
+            {
+              "name": "crypto",
+              "path_static": "build/lib/libcrypto.a"
+            },
+            {
+              "name": "ssl",
+              "path_static": "build/lib/libssl.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/_ssl.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_stat": [],
+      "_statistics": [],
+      "_string": [],
+      "_struct": [],
+      "_symtable": [],
+      "_testbuffer": [],
+      "_testcapi": [],
+      "_testimportmultiple": [],
+      "_testinternalcapi": [],
+      "_testmultiphase": [],
+      "_testsinglephase": [],
+      "_thread": [],
+      "_tkinter": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__tkinter",
+          "license_paths": [
+            "licenses/LICENSE.tcl.txt",
+            "licenses/LICENSE.zlib-ng.txt",
+            "licenses/LICENSE.zlib.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "TCL",
+            "Zlib"
+          ],
+          "links": [
+            {
+              "framework": true,
+              "name": "CoreFoundation"
+            },
+            {
+              "name": "pthread",
+              "system": true
+            },
+            {
+              "name": "tcl9.0",
+              "system": true
+            },
+            {
+              "name": "tcl9tk9.0",
+              "system": true
+            },
+            {
+              "name": "tclstub",
+              "path_static": "build/lib/libtclstub.a"
+            },
+            {
+              "name": "tkstub",
+              "path_static": "build/lib/libtkstub.a"
+            },
+            {
+              "name": "z",
+              "system": true
+            }
+          ],
+          "objs": [
+            "build/Modules/_tkinter.o",
+            "build/Modules/tkappinit.o"
+          ],
+          "required": false,
+          "shared_lib": "install/lib/python3.12/lib-dynload/_tkinter.cpython-312-darwin.so",
+          "variant": "default"
+        }
+      ],
+      "_tokenize": [],
+      "_tracemalloc": [],
+      "_typing": [],
+      "_uuid": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit__uuid",
+          "license_paths": [
+            "licenses/LICENSE.libuuid.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "BSD-3-Clause"
+          ],
+          "links": [
+            {
+              "name": "uuid",
+              "path_static": "build/lib/libuuid.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/_uuidmodule.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "_warnings": [],
+      "_weakref": [],
+      "_xxinterpchannels": [],
+      "_xxsubinterpreters": [],
+      "_xxtestfuzz": [],
+      "_zoneinfo": [],
+      "array": [],
+      "atexit": [],
+      "audioop": [],
+      "binascii": [],
+      "builtins": [],
+      "cmath": [],
+      "errno": [],
+      "faulthandler": [],
+      "fcntl": [],
+      "gc": [],
+      "grp": [],
+      "itertools": [],
+      "marshal": [],
+      "math": [],
+      "mmap": [],
+      "posix": [],
+      "pwd": [],
+      "pyexpat": [
+        {
+          "in_core": false,
+          "init_fn": "PyInit_pyexpat",
+          "license_paths": [
+            "licenses/LICENSE.expat.txt"
+          ],
+          "license_public_domain": false,
+          "licenses": [
+            "MIT"
+          ],
+          "links": [
+            {
+              "name": "expat",
+              "path_static": "build/lib/libexpat.a"
+            }
+          ],
+          "objs": [
+            "build/Modules/pyexpat.o"
+          ],
+          "required": false,
+          "variant": "default"
+        }
+      ],
+      "readline": [],
+      "resource": [],
+      "select": [],
+      "sys": [],
+      "syslog": [],
+      "termios": [],
+      "time": [],
+      "unicodedata": [],
+      "xxsubtype": [],
+      "zlib": []
+    }
+  }
+}

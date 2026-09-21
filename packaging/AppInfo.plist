@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>es</string>
+	<key>CFBundleExecutable</key>
+	<string>PhotosLocalKeywordIndexer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.photoslocalkeywordindexer.app</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon.icns</string>
+	<key>CFBundleName</key>
+	<string>Photos Local Keyword Indexer</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>PhotosLocalKeywordIndexerBuildChannel</key>
+	<string>development</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>La app necesita automatizar Fotos para leer y exportar fotos y, únicamente tras tu confirmación explícita, escribir keywords y descripciones breves (captions).</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>La app necesita leer y exportar temporalmente fotos para analizarlas y preparar una vista previa local; no añade fotos.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>La app no añade fotos; este permiso no se utiliza.</string>
+</dict>
+</plist>
